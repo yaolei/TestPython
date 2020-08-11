@@ -1,4 +1,4 @@
-FROM python:3.6.4
+FROM python:3.7.3
 RUN pip install --upgrade pip
 RUN pip3 install ibm_db
 RUN pip3 install configparser
